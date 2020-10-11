@@ -5,8 +5,8 @@ const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
 // healthcheck
-router.get('/hello', (req, res) => {
-  res.status('200').send("hello after commit: giving ok !");
+router.get('/helloranjith', (req, res) => {
+  res.status('200').send("helloranjith after commit: giving ok !");
 });
 
 // retrieve all musicians from data store
